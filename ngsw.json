@@ -1,0 +1,88 @@
+{
+  "configVersion": 1,
+  "timestamp": 1709135369127,
+  "index": "/coffeelog/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/coffeelog/chunk-GCSRVDY5.js",
+        "/coffeelog/chunk-GSILUZLE.js",
+        "/coffeelog/favicon.ico",
+        "/coffeelog/index.html",
+        "/coffeelog/main-ZFCBAYNG.js",
+        "/coffeelog/manifest.webmanifest",
+        "/coffeelog/polyfills-RT5I6R6G.js",
+        "/coffeelog/styles-BXVJJLCY.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/coffeelog/assets/coffeelist.png",
+        "/coffeelog/assets/icons/icon.png",
+        "/coffeelog/assets/icons/maskable_icon.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "http:\\/\\/localhost:3000"
+      ],
+      "strategy": "freshness",
+      "maxSize": 50,
+      "maxAge": 86400000,
+      "timeoutMs": 500,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/coffeelog/assets/coffeelist.png": "85c9715f2382e4edaad12c0b169fb83f9a518cf1",
+    "/coffeelog/assets/icons/icon.png": "208cdfc0bb0f3c49c39359edb2efb1fb72e2c3f3",
+    "/coffeelog/assets/icons/maskable_icon.png": "2f0fa4c8844b8b70b55327bdab0f86b3420ca4b1",
+    "/coffeelog/chunk-GCSRVDY5.js": "4cb5729139ec50d650518f5912043af38bbd02f7",
+    "/coffeelog/chunk-GSILUZLE.js": "98ec4d661693ddc546d8c600b476193a19277b35",
+    "/coffeelog/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/coffeelog/index.html": "e03af7c00151364c3cf44f850125d5a36949e792",
+    "/coffeelog/main-ZFCBAYNG.js": "1ad3f6ae27e8b4f30278c8dfc01e88f51a169bf9",
+    "/coffeelog/manifest.webmanifest": "4ef93377219be021d51dcc61c24a556d911c62d1",
+    "/coffeelog/polyfills-RT5I6R6G.js": "fe9f024576f21ff6314cf8f8332cde58b9a12416",
+    "/coffeelog/styles-BXVJJLCY.css": "20cccc6c19c983dd18046e82337b3b84a0da5462"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
