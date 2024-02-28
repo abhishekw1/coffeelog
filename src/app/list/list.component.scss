@@ -1,0 +1,19 @@
+mat-card {
+  margin: 1rem;
+}
+button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#buttonCreate {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+@media (display-mode: standalone) {
+  #buttonCreate {
+    bottom: 4rem;
+  }
+}

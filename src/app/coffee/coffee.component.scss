@@ -1,0 +1,45 @@
+h2 {
+  width: 100%;
+  margin: 0;
+  border-top: 2px solid black;
+}
+mat-slider {
+  width: 100%;
+}
+mat-card-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  mat-form-field {
+    flex: 1 1 200px;
+  }
+}
+.ratings {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .overallrating {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+#tasting {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+}
+
+mat-card-actions {
+  gap: 1rem;
+}
